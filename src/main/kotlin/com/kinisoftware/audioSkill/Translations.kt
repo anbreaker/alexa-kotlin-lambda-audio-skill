@@ -18,6 +18,18 @@ object Translations {
             TranslationKey.HELP to "Para usar esta skill simplemente tienes que invocarla y reproducirá el audio. ¿Quieres que lo reproduzca?",
             TranslationKey.THANKS to "¡Gracias por usar esta skill!",
             TranslationKey.FALLBACK to "Vaya, algo ha ido mal. Inténtalo más tarde"
+        ),
+        "en" to mapOf(
+            TranslationKey.WELCOME to "Thank your for using this skill!",
+            TranslationKey.HELP to "To use this skill just invoke it and the audio will be played right away. Do you want me to play the audio now?",
+            TranslationKey.THANKS to "Thank your for using this skill!",
+            TranslationKey.FALLBACK to "Ups, there is some problem here. Please, try later again."
+        ),
+        "pt" to mapOf(
+            TranslationKey.WELCOME to "Obrigado por usar essa skill!",
+            TranslationKey.HELP to "Para usar esta habilidade, basta invocá-la e ela reproduzirá o áudio. Você quer que eu jogue agora?",
+            TranslationKey.THANKS to "Obrigado por usar essa skill!",
+            TranslationKey.FALLBACK to "Uau, algo deu errado. Tente mais tarde"
         )
     )
 }

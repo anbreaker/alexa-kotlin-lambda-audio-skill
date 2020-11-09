@@ -23,6 +23,7 @@ class AudioSkillStreamHandler : SkillStreamHandler(skill) {
                 PlaybackStartedHandler(),
                 RepeatAndStartOverIntentHandler(),
                 CancelAndStopIntentHandler(),
+                NextAndPreviousIntentHandler(),
                 FallbackIntentHandler(),
                 SystemExceptionEncounterHandler(),
                 SessionEndedRequestHandler()
